@@ -133,8 +133,7 @@ def check_directory_exist(name):
     base_url = 'https://cloud-api.yandex.net'
 
     # Указываем токен для авторизации
-    token = 'y0_AgAAAABeEx4RAADLWwAAAAEBfeq1AADSxclQIV5LK7INMf2RdmcoKiiTxA'
-
+    token = TOKEN
     # Прописываем заголовки и URL для проверки существования папки
     headers = {'Authorization': token}
     url_for_check_directory_exist = base_url + '/v1/disk/resources'
